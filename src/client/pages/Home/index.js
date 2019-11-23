@@ -1,16 +1,13 @@
 import React from 'react'
 import ReactFullPage from '@fullpage/react-fullpage'
-import { Header } from './components/header'
 import { HomeSection } from './homeSection'
 import { CupSizeSection } from './cupSizeSection'
+import { HeaderContainer } from './components/HeaderContainer'
 
 export default () => {
     return (
         <React.Fragment>
-            <div className="sticky sticky-dark fixed-top nav-sticky">
-                <Header/>
-            </div>
-
+            <HeaderContainer/>
             <ReactFullPage
                 scrollingSpeed={1000}
                 render={({ state, fullpageApi }) => {

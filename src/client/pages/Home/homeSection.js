@@ -9,9 +9,6 @@ export const HomeSection = ({ fullPageApi }) => {
                     <div className="container">
                         <div className="row justify-content-denter vertical-content responsive-padding">
                             <h1>Choose your talent</h1>
-                            <button onClick={() => fullPageApi.moveSectionDown()}>
-                                Click me to move down
-                            </button>
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Header = () => {
+export const Header = ({ setShowMenu }) => {
     return (
         <header>
             <nav className="navbar-custom">
@@ -9,7 +9,7 @@ export const Header = () => {
                         <a className="navbar-brand logo text-uppercase" href="./">
                             StarBaraks
                         </a>
-                        <a href="#" className="menu-btn-open">
+                        <a href="#" className="menu-btn-open" onClick={() => setShowMenu(true)}>
                             <span className="line1"/>
                             <span className="line2"/>
                             <span className="line3"/>
