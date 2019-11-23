@@ -3,7 +3,7 @@ import { PageSection } from './components/PageSection'
 
 export const CupSizeSection = () => {
     return (
-        <PageSection id={'cupsize'}>
+        <PageSection id={'cupsize'} className={`bg-cupsize`}>
             <p>Select A cup</p>
         </PageSection>
     )

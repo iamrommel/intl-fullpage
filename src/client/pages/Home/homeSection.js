@@ -4,10 +4,20 @@ import { PageSection } from './components/PageSection'
 export const HomeSection = ({ fullPageApi }) => {
     return (
         <PageSection id={'home'} className={`bg-home`}>
-            <p>Section 1 (welcome to fullpage.js)</p>
-            <button onClick={() => fullPageApi.moveSectionDown()}>
-                Click me to move down
-            </button>
+            <div className="home-center">
+                <div className="home-desc-center">
+                    <div className="container">
+                        <div className="row justify-content-denter vertical-content responsive-padding">
+                            <h1>Choose your talent</h1>
+                            <button onClick={() => fullPageApi.moveSectionDown()}>
+                                Click me to move down
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </PageSection>
     )
 }

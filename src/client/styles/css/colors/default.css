@@ -18,3 +18,7 @@
 .form-custom .form-control:focus, .btn-custom {
     border-color: #10c469;
 }
+
+body {
+    color: white;
+}

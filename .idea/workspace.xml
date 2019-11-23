@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ed55e14-4ffc-4f76-9f8f-aea19c1786d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/client/styles/images/bg-size.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/pages/Home/components/PageSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/components/PageSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/pages/Home/cupSizeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/cupSizeSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/pages/Home/homeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/homeSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/styles/css/colors/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/styles/css/colors/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/styles/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/styles/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +47,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Apps\github.com\intl-fullpage\src\client\styles\images" />
       <recent name="C:\Apps\github.com\intl-fullpage\src\client\styles\fonts" />
       <recent name="C:\Apps\github.com\intl-fullpage" />
       <recent name="C:\Apps\github.com\intl-fullpage\src\client\styles" />
@@ -91,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574488295410</updated>
-      <workItem from="1574488296613" duration="5992000" />
+      <workItem from="1574488296613" duration="8588000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1574488586304</created>
@@ -121,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574494129789</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added the styling for home">
+      <created>1574494466611</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574494466611</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +159,8 @@
     <MESSAGE value="make it a SSR beacuse of render string" />
     <MESSAGE value="fixe the mobrise icons" />
     <MESSAGE value="added the sections" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the sections" />
+    <MESSAGE value="added the styling for home" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the styling for home" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

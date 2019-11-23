@@ -55,6 +55,7 @@ a {
 .section {
     padding-bottom: 0px !important;
     position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .height-100 {
@@ -420,10 +421,23 @@ a {
 ******************/
 
 .bg-home {
+
+}
+
+.bg-home:after {
+    content: "";
     background-image: url("../images/bg-home.jpg");
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
     background-size: cover;
-    position: relative;
-    background-position: center center;
 }
 
 .home-title {
@@ -1018,3 +1032,43 @@ a {
         padding-top: 0px !important;
     }
 }
+
+
+/******************
+    5.Features
+*******************/
+
+.bg-features {
+    background-image: url('../images/bg-size.jpg');
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+}
+
+.features-box .features-icon {
+    font-size: 40px;
+    color: #fff;
+}
+
+.features-box {
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+.features-box .features-content {
+    margin-top: 15px;
+}
+
+.features-box .features-content h5 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.features-box .features-content p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 12px;
+    letter-spacing: 0.6px;
+}
+
