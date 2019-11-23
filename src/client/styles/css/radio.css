@@ -1,0 +1,21 @@
+.input-hidden {
+    position: absolute;
+    left: -9999px;
+}
+
+input[type=radio]:checked + label > div > img {
+    border: 1px none #fff;
+    box-shadow: 0 0 5px 5px #10c469;
+}
+
+/* Stuff after this is only to make things more pretty */
+input[type=radio] + label > div > img {
+    border: 2px none #444;
+    width: 150px;
+    height: 200px;
+    transition: 500ms all;
+}
+
+input[type=radio]:checked + label > div > img {
+    transform: rotateZ(-10deg) rotateX(10deg);
+}

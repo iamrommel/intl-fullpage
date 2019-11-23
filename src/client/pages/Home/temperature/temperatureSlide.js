@@ -2,6 +2,10 @@ import React from 'react'
 import { PageSlide } from '../components/PageSlide'
 import { anchors } from '../anchors'
 import { SelectionContainer } from '../components/SelectionContainer'
+import { ImageRadioButton } from '../components/ImageRadioButton'
+import cold from '../../../styles/images/cold.png'
+import hot from '../../../styles/images/hot.png'
+
 
 const DescriptionContent = () => {
     return (
@@ -21,7 +25,12 @@ export const TemperatureSlide = ({ fullpageApi }) => {
                 icon: 'mdi mdi-format-size',
                 title: 'Next to CUP SIZE'
             }}>
-                <p>Should Choose somethign here</p>
+                <div className={`d-flex justify-content-center`}>
+
+                    <ImageRadioButton id={`COLD`} title={`Cold coffee`} name={`temperature`} imageSrc={cold}/>
+                    <ImageRadioButton id={`HOT`} title={`Hot coffee`} name={`temperature`} imageSrc={hot}/>
+                </div>
+
             </SelectionContainer>
 
 
