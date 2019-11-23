@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ed55e14-4ffc-4f76-9f8f-aea19c1786d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/components/HeaderContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/components/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/anchors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/components/menuItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/contactUsSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/pages/Home/components/HeaderContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/components/HeaderContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/pages/Home/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/pages/Home/components/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/components/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/pages/Home/cupSizeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/cupSizeSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/pages/Home/homeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/homeSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/pages/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/styles/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/styles/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/styles/images/bg-contact.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/styles/images/bg-contact.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/styles/images/bg-home.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/styles/images/bg-home.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/styles/images/bg-size.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/styles/images/bg-size.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +47,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/client/styles/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/client/pages/Home" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -47,6 +55,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Apps\github.com\intl-fullpage\src\client\pages\Home" />
       <recent name="C:\Apps\github.com\intl-fullpage\src\client\styles\images" />
       <recent name="C:\Apps\github.com\intl-fullpage\src\client\styles\fonts" />
       <recent name="C:\Apps\github.com\intl-fullpage" />
@@ -94,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574488295410</updated>
-      <workItem from="1574488296613" duration="10131000" />
+      <workItem from="1574488296613" duration="14625000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1574488586304</created>
@@ -138,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574498428956</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added the header menu">
+      <created>1574499877725</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574499877725</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +184,8 @@
     <MESSAGE value="added the sections" />
     <MESSAGE value="added the styling for home" />
     <MESSAGE value="updated the background" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the background" />
+    <MESSAGE value="Added the header menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the header menu" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

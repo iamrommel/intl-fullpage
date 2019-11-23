@@ -1,9 +1,10 @@
 import React from 'react'
 import { PageSection } from './components/PageSection'
+import { anchors } from './anchors'
 
-export const HomeSection = ({ fullPageApi }) => {
+export const HomeSection = ({ fullpageApi }) => {
     return (
-        <PageSection id={'home'} className={`bg-home`}>
+        <PageSection id={anchors.home.value} className={`bg-home`}>
             <div className="home-center">
                 <div className="home-desc-center">
                     <div className="container">

@@ -1,4 +1,5 @@
 import React from 'react'
+import { anchors } from '../anchors'
 
 export const Header = ({ setShowMenu }) => {
     return (
@@ -6,7 +7,7 @@ export const Header = ({ setShowMenu }) => {
             <nav className="navbar-custom">
                 <div className="container nav-position">
                     <div className="row">
-                        <a className="navbar-brand logo text-uppercase" href="./">
+                        <a className="navbar-brand logo text-uppercase" href={`#${anchors.home.value}`}>
                             StarBaraks
                         </a>
                         <a href="#" className="menu-btn-open" onClick={() => setShowMenu(true)}>
