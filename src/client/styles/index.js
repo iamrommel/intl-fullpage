@@ -1,0 +1,6 @@
+import './css/bootstrap.min.css'
+import './css/magnific-popup.css'
+import './css/materialdesignicons.min.css'
+import './css/mobrise.css'
+import './css/style.css'
+import './css/colors/default.css'

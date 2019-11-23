@@ -3,8 +3,8 @@
   "version": "Sample of using full page or single screen and internatlization on web apps",
   "license": "MIT",
   "scripts": {
-    "dev": "razzle start",
-    "build": "razzle build",
+    "dev": "rimraf ./build && razzle start",
+    "build": "rimraf ./build && razzle build",
     "test": "razzle test --env=jsdom",
     "start": "NODE_ENV=production node build/server.js"
   },
@@ -15,6 +15,7 @@
     "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
-    "razzle": "^3.0.0"
+    "razzle": "^3.0.0",
+    "rimraf": "^2.6.3"
   }
 }
