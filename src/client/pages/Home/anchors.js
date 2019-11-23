@@ -5,6 +5,9 @@ export const anchors = {
         slides: {
             cupSize: {
                 value: 'cupSize'
+            },
+            temperature: {
+                value: 'temperature'
             }
         }
     },

@@ -4,7 +4,7 @@ import { anchors } from './anchors'
 
 export const CupSizeSlide = () => {
     return (
-        <PageSlide id={anchors.home.slides.cupSize}>
+        <PageSlide id={anchors.home.slides.cupSize.value}>
             <h1 className="text-center">Choose Cup Size</h1>
         </PageSlide>
     )

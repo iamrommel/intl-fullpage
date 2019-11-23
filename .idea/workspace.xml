@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ed55e14-4ffc-4f76-9f8f-aea19c1786d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/components/PageSlide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/cupSizeSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.doc/cup.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/temperatureSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/styles/images/cup.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/pages/Home/anchors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/anchors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/pages/Home/components/PageSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/components/PageSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/pages/Home/components/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/components/menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/pages/Home/contactUsSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/contactUsSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/pages/Home/cupSizeSection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/pages/Home/cupSizeSlide.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/cupSizeSlide.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/pages/Home/homeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/homeSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/pages/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/styles/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/styles/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574488295410</updated>
-      <workItem from="1574488296613" duration="18958000" />
+      <workItem from="1574488296613" duration="20969000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1574488586304</created>
@@ -158,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574512394054</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added the page slides">
+      <created>1574516746061</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574516746061</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +195,8 @@
     <MESSAGE value="updated the background" />
     <MESSAGE value="Added the header menu" />
     <MESSAGE value="updated the background images" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the background images" />
+    <MESSAGE value="Added the page slides" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the page slides" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
