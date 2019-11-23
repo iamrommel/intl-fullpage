@@ -2,8 +2,8 @@ import React from 'react'
 import { PageSlide } from '../components/PageSlide'
 import { anchors } from '../anchors'
 import { SelectionContainer } from '../components/SelectionContainer'
-import { InputSlider } from '../components/InputSlider'
 import { SprinklesCount } from './SprinklesCount'
+import { SugarCount } from './SugarCount'
 
 const DescriptionContent = () => {
     return (
@@ -24,7 +24,7 @@ export const CustomizeSlide = ({ fullpageApi }) => {
             }}>
                 <div className={`d-flex flex-column  justify-content-center`}>
                     <SprinklesCount/>
-
+                    <SugarCount/>
                 </div>
 
 

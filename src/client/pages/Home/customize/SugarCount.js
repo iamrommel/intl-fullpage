@@ -3,15 +3,16 @@ import numeral from 'numeraljs'
 import get from 'lodash.get'
 import { InputSlider } from '../components/InputSlider'
 
-export const SprinklesCount = ({ value, onChange }) => {
+export const SugarCount = ({ value, onChange }) => {
     const sliderOptions = {
         range: {
             min: 0,
-            max: 20
+            max: 5
         },
         pips: {
             mode: 'steps',
             density: 20
+
         },
         start: value || 0,
         onChange: (args) => {
@@ -21,7 +22,7 @@ export const SprinklesCount = ({ value, onChange }) => {
     }
 
     return (
-        <InputSlider label="Sprinkles Count" description="How many new sprinkles do you need"
+        <InputSlider label="Add sugar?" description="How many new sugars should be added, we measure it by teaspoon"
                      value={value} options={sliderOptions}/>
     )
 }

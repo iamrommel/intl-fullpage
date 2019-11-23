@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ed55e14-4ffc-4f76-9f8f-aea19c1786d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/components/InputSlider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/customize/SprinklesCount.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/css/nouislider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/customize/SugarCount.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/pages/Home/components/InputSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/components/InputSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/pages/Home/customize/SprinklesCount.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/customize/SprinklesCount.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/pages/Home/customize/customizeSlide.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/customize/customizeSlide.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/styles/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/styles/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +39,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/client/pages/Home" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/client/pages/Home/customize" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -51,11 +48,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Apps\github.com\intl-fullpage\src\client\pages\Home\customize" />
       <recent name="C:\Apps\github.com\intl-fullpage\src\client\pages\Home" />
       <recent name="C:\Apps\github.com\intl-fullpage\src\client\styles\images" />
       <recent name="C:\Apps\github.com\intl-fullpage\src\client\styles\fonts" />
       <recent name="C:\Apps\github.com\intl-fullpage" />
-      <recent name="C:\Apps\github.com\intl-fullpage\src\client\styles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Apps\github.com\intl-fullpage\src\client\pages\Home\cupSize" />
@@ -99,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574488295410</updated>
-      <workItem from="1574488296613" duration="30508000" />
+      <workItem from="1574488296613" duration="32102000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1574488586304</created>
@@ -213,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574527038660</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added the sprinkle count and slider">
+      <created>1574528442505</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1574528442505</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +257,8 @@
     <MESSAGE value="Added the finale and cupsize" />
     <MESSAGE value="added the temperature selection&#10;added the radio button style" />
     <MESSAGE value="updated the sizing" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the sizing" />
+    <MESSAGE value="Added the sprinkle count and slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the sprinkle count and slider" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
