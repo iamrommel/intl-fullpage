@@ -23,7 +23,6 @@ export const Menu = ({ setShowMenu, showMenu }) => {
 
             <ul className="menu-nav">
                 <MenuItem  {...{ ...anchors.home, onClick: closeMenu }}/>
-                <MenuItem {...{ ...anchors.cupsize, onClick: closeMenu }} />
                 <MenuItem {...{ ...anchors.contactUs, onClick: closeMenu }} />
             </ul>
         </div>

@@ -1,12 +1,14 @@
 export const anchors = {
     home: {
         value: 'home',
-        title: 'Home'
+        title: 'Home',
+        slides: {
+            cupSize: {
+                value: 'cupSize'
+            }
+        }
     },
-    cupsize: {
-        value: 'cupsize',
-        title: 'Cup Sizes'
-    },
+
     contactUs: {
         value: 'contact',
         title: 'Contact Us'

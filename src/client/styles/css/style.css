@@ -421,7 +421,7 @@ a {
 ******************/
 
 .bg-home {
-
+    height: 100vh;
 }
 
 .bg-home:after {
@@ -438,6 +438,7 @@ a {
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
+    background-position: center center;
 }
 
 .home-title {
@@ -943,12 +944,27 @@ a {
 *******************/
 
 .bg-contact {
-    background-image: url('../images/bg-contact.jpg');
-    background-size: cover;
-    position: relative;
     height: 100vh;
+}
+
+
+.bg-contact:after {
+    content: "";
+    background-image: url('../images/bg-contact.jpg');
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
     background-position: center center;
 }
+
 
 .form-custom .form-control {
     height: 50px;
@@ -1038,7 +1054,7 @@ a {
     5.Features
 *******************/
 .bg-cupsize {
-
+    height: 100vh;
 }
 
 .bg-cupsize:after {
@@ -1055,4 +1071,5 @@ a {
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
+    background-position: center center;
 }
