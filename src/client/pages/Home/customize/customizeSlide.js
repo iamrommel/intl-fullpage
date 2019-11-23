@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { PageSlide } from '../components/PageSlide'
 import { anchors } from '../anchors'
 import { SelectionContainer } from '../components/SelectionContainer'
+import { InputSlider } from '../components/InputSlider'
+import { SprinklesCount } from './SprinklesCount'
 
 const DescriptionContent = () => {
     return (
@@ -20,7 +22,12 @@ export const CustomizeSlide = ({ fullpageApi }) => {
                 icon: 'mdi mdi-magnify',
                 title: 'Next to REVIEW'
             }}>
-                <p>Should Choose somethign here</p>
+                <div className={`d-flex flex-column  justify-content-center`}>
+                    <SprinklesCount/>
+
+                </div>
+
+
             </SelectionContainer>
         </PageSlide>
     )
