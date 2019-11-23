@@ -4,13 +4,13 @@ import { HomeSection } from './homeSection'
 import { HeaderContainer } from './components/HeaderContainer'
 import { anchors } from './anchors'
 import { ContactUsSection } from './contactUsSection'
+import { Provider } from './context'
 
 
 export default () => {
     return (
-        <React.Fragment>
+        <Provider>
             <HeaderContainer/>
-
             <ReactFullPage
                 anchors={[anchors.home.value, anchors.contactUs.value]}
                 easing={'easeInQuart'}
@@ -25,7 +25,6 @@ export default () => {
                     )
                 }}
             />
-
-        </React.Fragment>
+        </Provider>
     )
 }
