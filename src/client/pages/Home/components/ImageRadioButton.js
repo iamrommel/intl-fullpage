@@ -12,8 +12,8 @@ export const ImageRadioButton = ({ name = 'imageRadioButton', id, value, imageSr
 
             />
             <label htmlFor={id}>
-                <div>
-                    <img className={`img-fluid m-5`} src={imageSrc} alt={title}/>
+                <div className={`m-3`}>
+                    <img className={`img-fluid`} src={imageSrc} alt={title}/>
                     <h4 className={`text-center`}>{title}</h4>
                 </div>
 

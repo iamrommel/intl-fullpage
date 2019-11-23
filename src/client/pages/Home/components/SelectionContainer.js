@@ -10,10 +10,8 @@ export const SelectionContainer = ({ fullpageApi, children, descriptionContent, 
             </div>
             <div className="col-lg-4">
                 {descriptionContent}
-            </div>
 
-            <div className=" col-lg-4 offset-lg-8 ">
-                <div className={`d-flex justify-content-between`}>
+                <div className={`mt-5 d-flex justify-content-between`}>
                     <BackSectionButton {...{ fullpageApi }}/>
                     <NextSectionButton {...{
                         fullpageApi,
@@ -21,6 +19,8 @@ export const SelectionContainer = ({ fullpageApi, children, descriptionContent, 
                     }}/>
                 </div>
             </div>
+
+
         </React.Fragment>
     )
 }

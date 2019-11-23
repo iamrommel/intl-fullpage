@@ -12,6 +12,7 @@ export default () => {
             <HeaderContainer/>
             <ReactFullPage
                 licenseKey={'OPEN-SOURCE-GPLV3-LICENSE'}
+                scrollOverflow
                 anchors={[anchors.home.value, anchors.contactUs.value]}
                 easing={'easeInQuart'}
                 controlArrows={false}

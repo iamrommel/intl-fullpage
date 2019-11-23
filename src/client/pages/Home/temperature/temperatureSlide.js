@@ -25,8 +25,7 @@ export const TemperatureSlide = ({ fullpageApi }) => {
                 icon: 'mdi mdi-format-size',
                 title: 'Next to CUP SIZE'
             }}>
-                <div className={`d-flex justify-content-center`}>
-
+                <div className={`d-flex flex-wrap justify-content-center`}>
                     <ImageRadioButton id={`COLD`} title={`Cold coffee`} name={`temperature`} imageSrc={cold}/>
                     <ImageRadioButton id={`HOT`} title={`Hot coffee`} name={`temperature`} imageSrc={hot}/>
                 </div>

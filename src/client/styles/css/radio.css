@@ -19,3 +19,14 @@ input[type=radio] + label > div > img {
 input[type=radio]:checked + label > div > img {
     transform: rotateZ(-10deg) rotateX(10deg);
 }
+
+
+input[type=radio][name=temperature] + label > div > img {
+    width: 200px;
+    height: 260px;
+}
+
+input[type=radio][name=size] + label > div > img {
+    width: 99px;
+    height: 132px;
+}
