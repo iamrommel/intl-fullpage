@@ -11,6 +11,7 @@ export default () => {
         <Provider>
             <HeaderContainer/>
             <ReactFullPage
+                licenseKey={'OPEN-SOURCE-GPLV3-LICENSE'}
                 anchors={[anchors.home.value, anchors.contactUs.value]}
                 easing={'easeInQuart'}
                 controlArrows={false}
