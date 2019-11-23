@@ -19,7 +19,7 @@ export const TemperatureSlide = ({ fullpageApi }) => {
             <SelectionContainer fullpageApi={fullpageApi} descriptionContent={<DescriptionContent/>} nextButtonProps={{
                 onClick: null,
                 icon: 'mdi mdi-format-size',
-                title: 'Cup Size'
+                title: 'Next to CUP SIZE'
             }}>
                 <p>Should Choose somethign here</p>
             </SelectionContainer>

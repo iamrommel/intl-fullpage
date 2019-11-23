@@ -8,6 +8,12 @@ export const anchors = {
             },
             temperature: {
                 value: 'temperature'
+            },
+            customize: {
+                value: 'customize'
+            },
+            finale: {
+                value: 'finale'
             }
         }
     },

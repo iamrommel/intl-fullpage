@@ -4,6 +4,8 @@ import { anchors } from './anchors'
 import { CupSizeSlide } from './cupSize/cupSizeSlide'
 import { TemperatureSlide } from './temperature/temperatureSlide'
 import { HomeSlide } from './home/homeSlide'
+import { CustomizeSlide } from './customize/customizeSlide'
+import { FinaleSlide } from './finalize/finaleSlide'
 
 export const HomeSection = ({ fullpageApi }) => {
     return (
@@ -11,6 +13,8 @@ export const HomeSection = ({ fullpageApi }) => {
             <HomeSlide {...{ fullpageApi }}/>
             <TemperatureSlide {...{ fullpageApi }}/>
             <CupSizeSlide {...{ fullpageApi }}/>
+            <CustomizeSlide {...{ fullpageApi }}/>
+            <FinaleSlide {...{ fullpageApi }}/>
         </PageSection>
     )
 }
