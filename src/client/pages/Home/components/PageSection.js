@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 
-export const PageSection = ({ children }) => {
+export const PageSection = ({ children, id, className = '' }) => {
     return (
-        <div className="section">
+        <section className={`section ${className}`} id={id}>
             {children}
-        </div>
+        </section>
     )
 }
 

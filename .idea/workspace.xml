@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ed55e14-4ffc-4f76-9f8f-aea19c1786d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/components/PageSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/components/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/cupSizeSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/homeSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/pages/Home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/pages/Home/components/PageSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/components/PageSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/pages/Home/cupSizeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/cupSizeSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/pages/Home/homeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/homeSection.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +37,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/client/styles/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/client/styles/images" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -98,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574488295410</updated>
-      <workItem from="1574488296613" duration="5698000" />
+      <workItem from="1574488296613" duration="5992000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1574488586304</created>
@@ -121,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574491250490</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added the sections">
+      <created>1574494129789</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574494129789</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +148,8 @@
     <MESSAGE value="intial commit" />
     <MESSAGE value="make it a SSR beacuse of render string" />
     <MESSAGE value="fixe the mobrise icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixe the mobrise icons" />
+    <MESSAGE value="added the sections" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the sections" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

@@ -3,7 +3,7 @@ import { PageSection } from './components/PageSection'
 
 export const HomeSection = ({ fullPageApi }) => {
     return (
-        <PageSection>
+        <PageSection id={'home'} className={`bg-home`}>
             <p>Section 1 (welcome to fullpage.js)</p>
             <button onClick={() => fullPageApi.moveSectionDown()}>
                 Click me to move down
