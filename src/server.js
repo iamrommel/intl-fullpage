@@ -37,8 +37,8 @@ server
                     ? `<script src="${assets.client.js}" defer></script>`
                     : `<script src="${assets.client.js}" defer crossorigin></script>`}
     </head>
-    <body>
-        <div id="root">${markup}</div>
+    <body id="root">
+
     </body>
 </html>`
             )

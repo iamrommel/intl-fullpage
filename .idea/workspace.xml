@@ -2,56 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ed55e14-4ffc-4f76-9f8f-aea19c1786d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/css/colors/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/css/jquery.fullPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/css/magnific-popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/css/materialdesignicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/css/mobrise.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/css/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/css/owl.theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/css/owl.transitions.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/fonts/materialdesignicons-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/fonts/materialdesignicons-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/fonts/materialdesignicons-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/fonts/materialdesignicons-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/fonts/materialdesignicons-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/fonts/mobirise.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/fonts/mobirise.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/fonts/mobirise.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/fonts/mobirise.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/app-img/shot-1-alt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/app-img/shot-2-alt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/app-img/shot-3-alt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/app-img/shot-4-alt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/app-img/shot-5-alt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/app-img/shot-6-alt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/app-img/shot-7-alt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/bg-client.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/bg-contact.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/bg-download.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/bg-faq.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/bg-features.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/bg-home.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/bg-pricing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/bg-screenshot.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/bg-services.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/bg-video.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/download.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/iphone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/macbook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/shot-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/testi/testi-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/testi/testi-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/images/testi/testi-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/intl-fullpage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/intl-fullpage.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/components/PageSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/components/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/cupSizeSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/homeSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/pages/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +57,7 @@
       <recent name="C:\Apps\github.com\intl-fullpage\src\client\styles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Apps\github.com\intl-fullpage\src\client\pages\Home" />
       <recent name="C:\Apps\github.com\intl-fullpage\src\client\styles" />
       <recent name="C:\Apps\github.com\intl-fullpage\src\client\styles\css" />
       <recent name="C:\Apps\github.com\intl-fullpage\src\client\pages" />
@@ -136,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574488295410</updated>
-      <workItem from="1574488296613" duration="2908000" />
+      <workItem from="1574488296613" duration="5698000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1574488586304</created>
@@ -152,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574489667546</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixe the mobrise icons">
+      <created>1574491250490</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574491250490</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +147,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="intial commit" />
     <MESSAGE value="make it a SSR beacuse of render string" />
-    <option name="LAST_COMMIT_MESSAGE" value="make it a SSR beacuse of render string" />
+    <MESSAGE value="fixe the mobrise icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixe the mobrise icons" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
