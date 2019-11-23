@@ -176,7 +176,7 @@ a {
 .btn-outline-custom:focus,
 .btn-outline-custom:hover,
 .open > .dropdown-toggle.btn-custom {
-    color: #000;
+    color: #000 !important;
     background-size: 100% 100%;
 }
 

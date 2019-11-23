@@ -3,7 +3,6 @@ import ReactFullPage from '@fullpage/react-fullpage'
 import { HomeSection } from './homeSection'
 import { HeaderContainer } from './components/HeaderContainer'
 import { anchors } from './anchors'
-import { ContactUsSection } from './contactUsSection'
 import { Provider } from './context'
 
 
@@ -20,7 +19,6 @@ export default () => {
                     return (
                         <ReactFullPage.Wrapper>
                             <HomeSection {...fullPage}/>
-                            <ContactUsSection {...fullPage}/>
                         </ReactFullPage.Wrapper>
                     )
                 }}

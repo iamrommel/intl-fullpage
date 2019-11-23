@@ -1,9 +1,10 @@
 import React from 'react'
-import { PageSlide } from './PageSlide'
+import { PageSlide } from '../components/PageSlide'
 import { anchors } from '../anchors'
 import cup from '../../../styles/images/cup.png'
+import { NextSectionButton } from '../components/NextSectionButton'
 
-export const HomeSlide = () => {
+export const HomeSlide = ({ fullpageApi }) => {
     return (
         <PageSlide id={anchors.home.value}>
             <div className="col-lg-8 mt-3">
@@ -13,9 +14,7 @@ export const HomeSlide = () => {
                         for
                         you</p>
                     <div className="">
-                        <a href={`#${anchors.home.value}/${anchors.home.slides.temperature.value}`}
-                           className="btn btn-custom mt-4 mr-3"> Order Now <i
-                            className="mdi mdi-thumb-up"/></a>
+                        <NextSectionButton {...{ fullpageApi, icon: 'mdi mdi-thumb-up', title: 'Order Now' }} />
                     </div>
                 </div>
             </div>

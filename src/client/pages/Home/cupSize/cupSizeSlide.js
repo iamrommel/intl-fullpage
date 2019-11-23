@@ -1,6 +1,6 @@
 import React from 'react'
-import { PageSlide } from './components/PageSlide'
-import { anchors } from './anchors'
+import { PageSlide } from '../components/PageSlide'
+import { anchors } from '../anchors'
 
 export const CupSizeSlide = () => {
     return (
