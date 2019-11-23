@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ed55e14-4ffc-4f76-9f8f-aea19c1786d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/customize/SugarCount.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/components/InputDisplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/components/SelectInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/pages/Home/customize/FlavorSelection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/pages/Home/components/InputSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/components/InputSlider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/pages/Home/customize/SprinklesCount.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/customize/SprinklesCount.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/pages/Home/customize/customizeSlide.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/pages/Home/customize/customizeSlide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -96,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574488295410</updated>
-      <workItem from="1574488296613" duration="32102000" />
+      <workItem from="1574488296613" duration="33485000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1574488586304</created>
@@ -217,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574528442505</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fixed hte step">
+      <created>1574529971842</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1574529971842</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +268,8 @@
     <MESSAGE value="added the temperature selection&#10;added the radio button style" />
     <MESSAGE value="updated the sizing" />
     <MESSAGE value="Added the sprinkle count and slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the sprinkle count and slider" />
+    <MESSAGE value="fixed hte step" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed hte step" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

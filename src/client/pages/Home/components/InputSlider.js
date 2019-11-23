@@ -1,5 +1,6 @@
 import React from 'react'
 import Nouislider from 'nouislider-react'
+import { InputDisplay } from './InputDisplay'
 
 export const InputSlider = ({ label, description, value, options = {} }) => {
     options = {
@@ -18,14 +19,7 @@ export const InputSlider = ({ label, description, value, options = {} }) => {
     }
     return (
         <div className="m-4 p-2 ">
-            <div className="mb-0 d-flex justify-content-between">
-                <div>
-                    <h4 className="mb-0">{label}</h4>
-                    <small>{description}</small>
-                </div>
-                <h1 className="text-success mr-5 ">{value || 10}</h1>
-            </div>
-
+            <InputDisplay {...{ value, description, label }}/>
             <Nouislider{...options} />
         </div>
     )
