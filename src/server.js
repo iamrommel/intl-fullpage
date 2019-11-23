@@ -1,4 +1,4 @@
-import App from './App'
+import App from './client/App'
 import React from 'react'
 import { StaticRouter } from 'react-router-dom'
 import express from 'express'
@@ -13,13 +13,10 @@ server
     .get('/*', (req, res) => {
         const context = {}
         const markup = renderToString(
-            < StaticRouter
-        context = { context }
-        location = { req.url } >
-            < App / >
-            < /StaticRouter>
+            <StaticRouter context={context} location={req.url}>
+                <App/>
+            </StaticRouter>
     )
-
 
         if (context.url) {
             res.redirect(context.url)
@@ -31,7 +28,7 @@ server
     <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta charset="utf-8" />
-        <title>Welcome to Razzle</title>
+        <title>Full Page with Internationalization Demo</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         ${assets.client.css
                     ? `<link rel="stylesheet" href="${assets.client.css}">`
