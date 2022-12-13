@@ -7,7 +7,7 @@
     "react-dom": "^16.12.0",
     "react-scripts": "3.2.0",
     "@fullpage/react-fullpage": "^0.1.16",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "lodash.get": "^4.4.2",
     "nouislider-react": "^3.3.5",
     "numeraljs": "^1.5.6",
